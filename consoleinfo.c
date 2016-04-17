@@ -84,10 +84,10 @@ ConsoleInfoList     *CIL_new(void)
 	ConsoleInfoList	*list;
 
 	if ((list = malloc(sizeof(ConsoleInfoList))))
-    {
-        list->count = 0;
-        list->head = NULL;
-        list->tail = NULL;
-    }
+    	{
+        	list->count = 0;
+        	list->head = NULL;
+        	list->tail = NULL;
+    	}
 	return (list);
 }

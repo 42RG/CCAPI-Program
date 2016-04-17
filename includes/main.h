@@ -10,7 +10,7 @@
 # include <assert.h>
 # include <stdbool.h>
 
-# define PATH_DLL   "../DLL/CCAPI.dll"
+# define PATH_DLL   "DLL/CCAPI.dll"
 # define CCAPI_OK   0
 
 typedef unsigned char           u8;

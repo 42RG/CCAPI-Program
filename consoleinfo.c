@@ -81,13 +81,13 @@ ConsoleInfoList     *CIL_append(ConsoleInfoList *list, const char *name, const c
 
 ConsoleInfoList     *CIL_new(void)
 {
-	ConsoleInfoList	*list;
+     ConsoleInfoList	*list;
 
-	if ((list = malloc(sizeof(ConsoleInfoList))))
-    	{
-        	list->count = 0;
-        	list->head = NULL;
-        	list->tail = NULL;
-    	}
+     if ((list = malloc(sizeof(ConsoleInfoList))))
+     {
+        list->count = 0;
+        list->head = NULL;
+        list->tail = NULL;
+     }
 	return (list);
 }

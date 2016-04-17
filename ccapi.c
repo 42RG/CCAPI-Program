@@ -9,9 +9,9 @@ void                memdel(void **ap)
 char                *strdup(const char *s1)
 {
     const size_t len    = strlen(s1) + 1;
-	char        *p      = malloc(len);
+    char        *p      = malloc(len);
 
-	return (p ? memcpy(p, s1, len) : NULL);
+    return (p ? memcpy(p, s1, len) : NULL);
 }
 
 int                 SetMemory(const HINSTANCE CCAPI, u32 pid, u64 offset, u32 size, const void *data)
